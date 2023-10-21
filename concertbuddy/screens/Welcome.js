@@ -12,7 +12,7 @@ const Welcome = () => {
             <View style={{flex: 1}}>
                 <View>
                     <Image 
-                        source={require("../asset/hero1.jpg")} 
+                        source={require("../assets/hero1.jpg")} 
                         style={{
                             height: 100,
                             width: 100,
@@ -21,9 +21,19 @@ const Welcome = () => {
                             transform: [
                                 {translateX: 20},
                                 {translateY: 50},
+                                {rotate: "-15deg"}
                             ]
                         }}
-
+                    />
+                    <Image 
+                        source={require("../assets.hero1.jpg")}
+                        style={{
+                            height: 100,
+                            width: 100,
+                            borderRadius: 20,
+                            top: -30,
+                        }}
+                    
                     />
                 </View>
             </View>
